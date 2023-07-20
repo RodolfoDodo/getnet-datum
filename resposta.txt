@@ -1,0 +1,80 @@
+Responda as questões a seguir:
+1) O cliente adquiriu um novo modelo de máquina de cartão de crédito e ela aceita as
+bandeiras Visa, Master, Elo, Amex e Hiper e executa duas operações para cada
+bandeira débito e crédito. Quantos testes serão necessários para validação dessa
+máquina e qual técnica a ser utilizada?
+
+Para validar a máquina de cartão de crédito, considerando as bandeiras Visa, Master, Elo, Amex e Hiper, e duas operações (débito e crédito) para cada bandeira, serão necessários 10 testes no total (5 bandeiras x 2 operações).
+
+No caso usaria os testes funcionais para validar se o sistema se comporta com o resultado esperado. 
+
+Exemplo:
+
+Cenario 01 = Visa Debito = OK
+Cenario 02 = Visa Credito = OK
+Cenario 03 = Master Debito = ERRO
+Cenario 04 = Master Credito = ERRO
+Cenario 05 = Elo = Debito = OK
+Cenario 06 = Elo = Credito = OK
+Cenario 07 = Amex = Debito = OK
+Cenario 08 = Amex = Credito OK
+Cenario 09 = Hiper = Debito = OK
+Cenario 10 = Hiper = Credito = OK
+
+
+2) A bandeira Visa disponibilizou um novo range de bin ́s no mercado que possui seis
+dígitos 232425 a 232460. Quais os testes deverão ser feitos desse range de bins para
+confirmar que está funcionando?
+a) 230000,232425,232460
+b) 0,232425,232460,240000
+c) 232425,232460
+d) 232424,232425,232459,232460,232461
+
+Letra D
+
+3) Cite uma abordagem desenvolvimento ágil e explique-a, responda em suas palavras.
+
+Hoje eu trabalho no modelo Scrum e Kanban, tenho um bor na ferramenta Jira que nos auxiliar nas visualizações das tarefas 
+e seu andamento. Facilitando que todos tenha visibilidade do que está sendo entregue visando o produto e sua melhoria. 
+
+Gosto muito desse modelo a equipe se unifica nas entregas, realizando todos os rituais como refinamento, refinamento tecnico, daily, sprint reviewm no final de cada entrega. 
+
+4) O que é CI/CD?
+
+CI/CD é a sigla para Integração Contínua e Entrega Contínua (Continuous Integration and Continuous Delivery).
+
+Eu como QA com foco em automação estou sempre integrando meus codigos de testes automatizados na pipeline, 
+Com isso eu consigo visualizar um bord de cobertura de testes maior e reportar para o time caso algum cenario falhe
+
+Tabém consigo realizar testes de formar mais ageis garantindo uma agilidade e ganhar de tempo maior
+
+
+5) O que é TDD, BDD e ATDD e quando são aplicadas?
+
+TDD (Test-Driven Development): É uma abordagem de desenvolvimento de software que envolve escrever os testes automatizados antes de implementar o código.
+
+BDD (Behavior-Driven Development): É uma abordagem que visa melhorar a colaboração entre desenvolvedores, testadores e especialistas de domínio. OBS: Não podemos confundir cucumber com BDD, cucumber e uma ferramenta que auxiliar no desenvolvimento de steps para codigos automatizados
+
+ATDD (Acceptance Test-Driven Development): É uma extensão do TDD que enfatiza o envolvimento dos stakeholders na definição de testes de aceitação antes do desenvolvimento
+
+
+6) Cite uma heurística de testes utilizada para testes de front e de back e explique-as.
+
+Front = Podemos ter heurística de testes como layout se o sistema pode ser utilizado em varios navegadores,
+Podemos testar fluxos alternativos para verificar se o resultado esperado e o mesmo
+
+Back = Podemos ter herísticas de testes de perfomance, validação de segurança verificação da regra de negocio
+
+
+7) Cite ferramentas de testes automatizados para Desktop, Web, API ́s e mobile
+
+Testes Desktop: TestComplete, Sekuli
+
+Testes Web: Selenium WebDriver, Cypress, Capybara.
+
+Testes de API: Postman, Insomina, RestAssured, SOAPUI.
+
+Testes Mobile: Appium, Espresso, XCUITest, Detox, Maestro.
+
+
+
