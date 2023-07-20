@@ -33,7 +33,7 @@ public class CreatePostTest {
 	            .contentType(ContentType.JSON)
 	            .body(create) // Envia o objeto Create como JSON no corpo da requisição
 	        .when()
-	            .post("https://reqres.in/api/users")
+	            .post("/api/users")
 	        .then()
 	            .log().all()
 	            .statusCode(201)
@@ -51,7 +51,7 @@ public class CreatePostTest {
 	            .contentType(ContentType.JSON)
 	            .body(create) // Envia o objeto Create como JSON no corpo da requisição
 	        .when()
-	            .post("https://reqres.in/api/users")
+            	.post("/api/users")
 	        .then()
 	            .log().all()
 	            .statusCode(201)
@@ -69,7 +69,7 @@ public class CreatePostTest {
 	            .contentType(ContentType.JSON)
 	            .body(create) // Envia o objeto Create como JSON no corpo da requisição
 	        .when()
-	            .post("https://reqres.in/api/users")
+            	.post("/api/users")
 	        .then()
 	            .log().all()
 	            .statusCode(201)
@@ -86,7 +86,7 @@ public class CreatePostTest {
 	            .contentType(ContentType.JSON)
 	            .body(create) // Envia o objeto Create como JSON no corpo da requisição
 	        .when()
-	            .post("https://reqres.in/api/users")
+            	.post("/api/users")
 	        .then()
 	        .log().all()
             .statusCode(201)
